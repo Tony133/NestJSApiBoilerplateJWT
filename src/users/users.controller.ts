@@ -15,7 +15,7 @@ import { UserProfileDto } from "./dto/user-profile.dto";
 import { IUsers } from "./interfaces/users.interface";
 
 @UseGuards(AuthGuard("jwt"))
-@Controller("/api/users")
+@Controller("users")
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 

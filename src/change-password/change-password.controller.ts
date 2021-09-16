@@ -11,7 +11,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { ChangePasswordDto } from './dto/change-password.dto';
 
 @UseGuards(AuthGuard('jwt'))
-@Controller('api/auth/change-password')
+@Controller('auth/change-password')
 export class ChangePasswordController {
   constructor(private readonly changePasswordService: ChangePasswordService) {}
 

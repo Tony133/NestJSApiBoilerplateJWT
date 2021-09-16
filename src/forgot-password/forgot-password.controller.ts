@@ -2,7 +2,7 @@ import { Controller, Post, Body, Res, HttpStatus } from "@nestjs/common";
 import { ForgotPasswordService } from "../forgot-password/forgot-password.service";
 import { ForgotPasswordDto } from "./dto/forgot-password.dto";
 
-@Controller("api/auth/forgot-password")
+@Controller("auth/forgot-password")
 export class ForgotPasswordController {
   constructor(private readonly forgotPasswordService: ForgotPasswordService) {}
 

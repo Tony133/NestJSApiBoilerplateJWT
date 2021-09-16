@@ -1,6 +1,6 @@
 # NestJSApiBoilerplateJWT
 
-An API Boilerplate to create a ready-to-use REST API in seconds with NestJS 7.x and Passport Auth JWT System :heart_eyes_cat:
+An API Boilerplate to create a ready-to-use REST API in seconds with NestJS 8.x and Passport Auth JWT System :heart_eyes_cat:
 
 ## Installation
 
