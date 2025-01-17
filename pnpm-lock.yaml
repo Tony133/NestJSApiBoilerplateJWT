@@ -18,8 +18,8 @@ importers:
         specifier: ^10.4.15
         version: 10.4.15(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/config':
-        specifier: ^3.3.0
-        version: 3.3.0(@nestjs/common@10.4.15(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(rxjs@7.8.1)
+        specifier: ^4.0.0
+        version: 4.0.0(@nestjs/common@10.4.15(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(rxjs@7.8.1)
       '@nestjs/core':
         specifier: ^10.4.15
         version: 10.4.15(@nestjs/common@10.4.15(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -652,10 +652,10 @@ packages:
       class-validator:
         optional: true
 
-  '@nestjs/config@3.3.0':
-    resolution: {integrity: sha512-pdGTp8m9d0ZCrjTpjkUbZx6gyf2IKf+7zlkrPNMsJzYZ4bFRRTpXrnj+556/5uiI6AfL5mMrJc2u7dB6bvM+VA==}
+  '@nestjs/config@4.0.0':
+    resolution: {integrity: sha512-hyhUMtVwlT+tavtPNyekl8iP0QTU1U6awKrgdOSxhMhp3TQMltx7hz2yqGTcARp+19zWPfgJudyxthuD3lPp/Q==}
     peerDependencies:
-      '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
+      '@nestjs/common': ^10.0.0 || ^11.0.0
       rxjs: ^7.1.0
 
   '@nestjs/core@10.4.15':
@@ -1507,12 +1507,8 @@ packages:
     resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
     engines: {node: '>=8'}
 
-  dotenv-expand@10.0.0:
-    resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
-    engines: {node: '>=12'}
-
-  dotenv@16.4.5:
-    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+  dotenv-expand@12.0.1:
+    resolution: {integrity: sha512-LaKRbou8gt0RNID/9RoI+J2rvXsBRPMV7p+ElHlPhcSARbCPDYcYG2s1TIzAfWv4YSgyY5taidWzzs31lNV3yQ==}
     engines: {node: '>=12'}
 
   dotenv@16.4.7:
@@ -4210,11 +4206,11 @@ snapshots:
       class-transformer: 0.5.1
       class-validator: 0.14.1
 
-  '@nestjs/config@3.3.0(@nestjs/common@10.4.15(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(rxjs@7.8.1)':
+  '@nestjs/config@4.0.0(@nestjs/common@10.4.15(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 10.4.15(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
-      dotenv: 16.4.5
-      dotenv-expand: 10.0.0
+      dotenv: 16.4.7
+      dotenv-expand: 12.0.1
       lodash: 4.17.21
       rxjs: 7.8.1
 
@@ -5138,9 +5134,9 @@ snapshots:
     dependencies:
       is-obj: 2.0.0
 
-  dotenv-expand@10.0.0: {}
-
-  dotenv@16.4.5: {}
+  dotenv-expand@12.0.1:
+    dependencies:
+      dotenv: 16.4.7
 
   dotenv@16.4.7: {}
 
